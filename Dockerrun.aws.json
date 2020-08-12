@@ -1,7 +1,11 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Logging": "amishaagupta/dockercheck",
   "Image": {
-  	"Update": "false"
-  }
+    "Name": "amishaagupta/node-docker-eb"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3000"
+    }
+  ]
 }
